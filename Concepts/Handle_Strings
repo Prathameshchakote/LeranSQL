@@ -9,3 +9,6 @@ Concat(string1,string2)
 
 get substring 
 substr(string_name,Lower_bound,upper_bound)
+
+sample Question: 
+https://leetcode.com/problems/fix-names-in-a-table/description/?envType=study-plan-v2&envId=top-sql-50
