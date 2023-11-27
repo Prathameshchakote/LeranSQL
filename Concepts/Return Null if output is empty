@@ -1,0 +1,20 @@
+How to return null if output is empty
+
+eg.
+
+SELECT(SELECT DISTINCT
+    Salary 
+FROM
+    Employee
+ORDER BY Salary DESC
+LIMIT 1 OFFSET 1)AS SecondHighestSalary;
+
+or 
+
+SELECT
+    IFNULL(
+      (SELECT DISTINCT Salary
+       FROM Employee
+       ORDER BY Salary DESC
+        LIMIT 1 OFFSET 1),
+    NULL) AS SecondHighestSalary
