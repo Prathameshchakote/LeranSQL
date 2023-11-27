@@ -1,0 +1,11 @@
+make upper
+Upper(string1)
+
+make lower
+lower(string2)
+
+attach two string
+Concat(string1,string2)
+
+get substring 
+substr(string_name,Lower_bound,upper_bound)
